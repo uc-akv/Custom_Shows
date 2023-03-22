@@ -1,50 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/xp.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&family=Rubik+Iso&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/xp.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&family=Rubik+Iso&display=swap"
+      rel="stylesheet"
+    />
     <title>Custom Shows</title>
-    <link rel="stylesheet" href="style_form.css">
-</head>
+    <link rel="stylesheet" href="customshows.css" />
+  </head>
 
-
-<body>
+  <body>
     <div class="outer">
-        <div class="inner">
-            <div class="title-bar">
-                <div class="title-bar-text">Custom Shows</div>
-                <div class="title-bar-controls">
-              <button aria-label="Help"></button>
-             <button aria-label="Close"></button>
-              </div>
-            </div>
-            <div class="body_inner">
-                
-                <div class="body_inner_space">
-                    <div class="body_inner_area">
-                        <span class="body_inner_title">C<u>u</u>stom shows:</span>
-                        <textarea name="" class="body_inner_input"></textarea>
-                       
-                    </div>
-                    <div class="body_inner_button">
-                        <button class="new_btn"><u>N</u>ew...</button>
-                        <button class="btn" disabled><u>E</u>dit</button>
-                        <button class="btn" disabled><u>R</u>emove</button>
-                        <button class="btn" disabled>Cop<u>y</u></button>
-                    </div>
-                </div>
-    
-                <div class="body_button">
-                    <button><u>C</u>lose</button>
-                    <button class="btn" disabled><u>S</u>how</button>
-                </div>
-            </div>
+      <div class="inner">
+        <div class="title-bar">
+          <div class="title-bar-text">Custom Shows</div>
+          <div class="title-bar-controls">
+            <button aria-label="Help"></button>
+            <button aria-label="Close"></button>
+          </div>
         </div>
+        <div class="body_inner">
+          <div class="body_inner_space">
+            <div class="body_inner_area">
+              <span class="body_inner_title"
+                >C<span class="underline">u</span>stom shows:</span
+              >
+              <textarea name="" class="body_inner_input"></textarea>
+            </div>
+            <div class="body_inner_button">
+              <button autofocus class="new_btn"><u>N</u>ew...</button>
+              <button class="btn btn1" disabled>
+                <span class="underline">E</span>dit
+              </button>
+              <button class="btn btn1" disabled>
+                <span class="underline">R</span>emove
+              </button>
+              <button class="btn btn1" disabled>
+                Cop<span class="underline">y</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="body_button">
+            <button class="close"><span class="underline">C</span>lose</button>
+            <button class="btn btn1" disabled>
+              <span class="underline">S</span>how
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
