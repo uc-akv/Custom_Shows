@@ -3,6 +3,7 @@ body {
   margin: 0px;
   font-size: 12px;
   font-family: 'Roboto', sans-serif;
+  font-weight:bold;
 }
 .outer {
   display: flex;
