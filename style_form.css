@@ -66,9 +66,9 @@ body {
   margin: 9px 9.5px;
   width: 5vw;
 }
-
-
-
+.title-bar-text{
+  font-family: 'Roboto', sans-serif;
+}
 textarea {
   resize: none;
   border: 1px solid #587e9e;
