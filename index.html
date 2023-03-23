@@ -5,53 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/xp.css" />
+    <link
+      href="//db.onlinewebfonts.com/c/794e572cce05ab25cdc31a0d3368c829?family=MrEavesXLModNarOT-Heavy"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&family=Rubik+Iso&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="custom.css" />
     <title>Custom Shows</title>
-    <link rel="stylesheet" href="stylesheet.css" />
   </head>
-
   <body>
-    <div class="outer">
-      <div class="inner">
-        <div class="title-bar">
-          <div class="title-bar-text">Custom Shows</div>
-          <div class="title-bar-controls">
-            <button aria-label="Help"></button>
-            <button aria-label="Close"></button>
-          </div>
+    <div class="container">
+      <div class="upper_options">
+        <div id="modal_name">Custom shows</div>
+        <div class="modal_btn title-bar-controls">
+          <button aria-label="Help"></button>
+          <button aria-label="Close"></button>
         </div>
-        <div class="body_inner">
-          <div class="body_inner_space">
-            <div class="body_inner_area">
-              <span class="body_inner_title"
-                >C<span class="underline">u</span>stom shows:</span
-              >
-              <textarea name="" class="body_inner_input"></textarea>
+      </div>
+      <div class="lower_options">
+        <div class="field-row-stacked">
+          <div class="wrapper_left">
+            <div class="heading_txt_area">C<u>u</u>stom shows:</div>
+            <div class="field-row" style="height: 74%">
+              <input id="text21" type="text" />
             </div>
-            <div class="body_inner_button">
-              <button autofocus class="new_btn"><u>N</u>ew...</button>
-              <button class="btn btn1" disabled>
-                <span class="underline">E</span>dit
-              </button>
-              <button class="btn btn1" disabled>
+            <div class="close_btn_txt_area">
+              <button><span class="underline ">C</span>lose</button>
+            </div>
+          </div>
+          <div class="wrapper_right">
+            <div class="upr_lft_btn">
+              <span>
+                <button autofocus id="new_btn" class="left_btn">
+                  <span class="underline">N</span>ew...
+                </button>
+              </span>
+              <span>
+                <button class="left_btn" disabled>
+                  <span class="underline">E</span>dit...
+                </button>
+              </span>
+              <button class="left_btn" disabled>
                 <span class="underline">R</span>emove
               </button>
-              <button class="btn btn1" disabled>
+              <button class="left_btn" disabled>
                 Cop<span class="underline">y</span>
               </button>
             </div>
-          </div>
-
-          <div class="body_button">
-            <button class="close"><span class="underline">C</span>lose</button>
-            <button class="btn btn1" disabled>
-              <span class="underline">S</span>how
-            </button>
+            <div class="lwr_lft_btn">
+              <button class="left_btn" disabled>
+                <span class="underline">S</span>how
+              </button>
+            </div>
           </div>
         </div>
       </div>
