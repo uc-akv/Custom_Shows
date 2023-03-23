@@ -1,106 +1,120 @@
+@import url(//db.onlinewebfonts.com/c/794e572cce05ab25cdc31a0d3368c829?family=MrEavesXLModNarOT-Heavy);
+.modal_btn,
+.upper_options {
+  align-content: center;
+  display: flex;
+}
+@font-face {
+  font-family: MrEavesXLModNarOT-Heavy;
+  src: url("//db.onlinewebfonts.com/t/794e572cce05ab25cdc31a0d3368c829.eot");
+  src: url("//db.onlinewebfonts.com/t/794e572cce05ab25cdc31a0d3368c829.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/794e572cce05ab25cdc31a0d3368c829.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/794e572cce05ab25cdc31a0d3368c829.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/794e572cce05ab25cdc31a0d3368c829.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/794e572cce05ab25cdc31a0d3368c829.svg#MrEavesXLModNarOT-Heavy")
+      format("svg");
+}
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
 }
 body {
-  padding: 0px;
-  margin: 0px;
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.btn1 {
-  border: 2px solid #e2e0d7;
+.container {
+  background-color: #005bf2;
+  width: 350px;
+  height: 208px;
+  top: 120px;
+  left: 545px;
+  padding: 6px 4px;
+  border-radius: 5px;
+  margin: 50px auto;
 }
-
-.outer {
-  display: flex;
+.upper_options {
+  height: 10%;
+  width: 345px;
   margin: auto;
-  width: 32vw;
-  height: 36vh;
-  margin-top: 30vh;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #005bf2;
+  color: #fff;
+  padding-bottom: 4px;
 }
-.inner {
-  background-color: blue;
+.lower_options {
   width: 100%;
-  height: 86%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  padding: 1.5px;
-  font-weight: bold;
-}
-
-.title-bar-text {
-  font-size: 16px;
-  padding-left: 5px;
-}
-.title-bar-controls{
-      margin-right: -3px;
-}
-.body_inner {
-  height: 87%;
-  width: 98.5%;
-  display: flex;
-  margin: auto;
-  flex-direction: column;
+  height: 89%;
   background-color: #ece9d8;
 }
-.body_inner_space {
+.modal_btn {
+  width: 45px;
+  justify-content: space-between;
+}
+.title-bar-controls button {
+  min-height: 20px;
+}
+.navigation_btn {
+  width: 20px;
+  border: 1px solid #fff;
+  height: 18px;
+  border-radius: 2px;
+}
+#help_btn {
+  background-color: #497bf6;
+}
+#close_btn {
+  background-color: #e45e3a;
+}
+#modal_name {
+  font-size: 15px;
+  font-weight: 700;
+}
+.wrapper_left {
+  height: 165px;
+  padding: 5px;
+  width: 255px;
+}
+.heading_txt_area {
+  color: #000;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#text21,
+.txt_area {
+  width: 100%;
+  height: 125px;
+}
+.close_btn_txt_area {
+  float: right;
+  border: 1.5px solid #487397;
+  border-radius: 5px;
+}
+.field-row-stacked {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  width: 100%;
 }
-.body_inner_input {
-  width: 24vw;
-  height: 16.5vh;
-  margin-left: 5px;
-  margin-top: 3px;
-}
-.body_inner_button {
+.wrapper_right {
+  height: 165px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
-  padding-top: 12px;
-  margin-right: 5px;
+  width: 85px;
+  justify-content: space-between;
+  align-items: center;
 }
-.body_inner_button > button {
-  margin-bottom: 9.5px;
-  margin-left: 8px;
-  width: 5vw;
+.left_btn {
+  width: 30px;
 }
-.body_inner_area {
+.upr_lft_btn {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 }
-.body_inner_title {
-  font-weight: bold;
-  padding: 8px 5px 0px 5px;
-}
-.body_button {
-  display: flex;
-  justify-content: flex-end;
-}
-.body_button > button {
-  margin: 12px 9px;
-  width: 5vw;
-}
-button {
-  font-size: 12.5px;
-}
-.close {
-  border: 2px solid #487397;
-}
-
-textarea {
-  resize: none;
-  border: 1px solid #587e9e;
-}
-
 .underline {
   text-decoration: underline;
 }
-
-.btn {
-  border: none;
-  border: 2px solid #dbd8cc;
-  border-radius: 5px;
-}
-
