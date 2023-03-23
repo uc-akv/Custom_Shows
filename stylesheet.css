@@ -50,7 +50,7 @@ body {
   justify-content: space-around;
 }
 .body_inner_input {
-  width: 22.5vw;
+  width: 24vw;
   height: 16.5vh;
   margin-left: 5px;
   margin-top: 3px;
@@ -79,7 +79,7 @@ body {
   justify-content: flex-end;
 }
 .body_button > button {
-  margin: 12px 14.5px;
+  margin: 12px 9px;
   width: 5vw;
 }
 button {
